@@ -1,0 +1,30 @@
+language: node_js
+node_js: stable
+
+# S: Build Lifecycle
+install:
+  - npm install
+
+
+#before_script:
+ # - npm install -g gulp
+
+script:
+  - hexo g
+
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "KillingJacky"
+  - git config user.email "jacky.shaoxg@gmail.com"
+  - git add .
+  - git commit -m "One more step to X"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+# E: Build LifeCycle
+
+branches:
+  only:
+    - src
+env:
+ global:
+   - GH_REF: github.com/KillingJacky/killingjacky.github.io.git
