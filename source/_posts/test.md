@@ -6,7 +6,7 @@ tags: testtag
 
 # test
 
-![test image](../images/cloudy.png)
+![test image](test/cloudy.png)
 
 
 
