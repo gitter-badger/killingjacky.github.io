@@ -17,6 +17,8 @@ This article involves a product within China - [Thunder Remote Download](yc.xunl
 
 <img src="slack-thunder/IMG_6369-1.PNG" width=40%>
 
+<!-- more -->
+
 ## 部署
 ### 准备
 1. 一台能够连接迅雷服务器和slack服务器的机器，例如：NAS，VPS。能运行Python的路由也行。

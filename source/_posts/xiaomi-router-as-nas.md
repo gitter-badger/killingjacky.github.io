@@ -9,6 +9,8 @@ Xiaomi R1D router is a high performance Broadcom BCM4709 based router with built
 
 ![](http://www.soyacincau.com/wp-content/uploads/2014/10/141011-xiaomi-mi-router-malaysia-04.jpg)
 
+<!-- more -->
+
 The stuff we can play with R1D are:
 
 - Flash the Tomato firmware (alternative advanced tomato with better UI)

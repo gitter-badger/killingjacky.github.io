@@ -10,6 +10,8 @@ date: 2016-11-25 23:13:05
 ---
 I need more virtual walls for my iRobot Roomba 650, and I find that it's not too complicated to make that. So I did some electronic monitoring and software tinkering, then I successfully made several ones - working good.
 
+<!-- more -->
+
 #### The IR protocol
 
 Here's my research, maybe different from some old discussions (maybe they're for series 4000 or newer 5), but this protocol is proved to be working for 650.

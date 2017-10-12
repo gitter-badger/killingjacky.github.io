@@ -9,6 +9,8 @@ Pebble is the most popular smart watch with a strong ability in battery life and
 
 Now Pebble Time brings us a new possibility to super extend its functionality - the smartstrap interface.
 
+<!-- more -->
+
 <img src="pebble-geo/IMG_2533-1.JPG" width="40%">
 
 With this interface, we have designed some gadgets to connect [Xadow](http://www.seeed.cc/wear/) with pebble. With Xadow, pebble pluses the wings of more sensors and wearable modules and is unlocked the limitation of the box. Tinkers and makers will have their unique Pebble+ with some interesting hacking. That will be fun.

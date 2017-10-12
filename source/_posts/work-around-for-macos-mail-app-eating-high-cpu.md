@@ -12,6 +12,7 @@ The work around is based on a software named `monit`. Let's see what monit do.
 
 ![](https://mmonit.com/monit/img/logo.png)
 
+<!-- more -->
 
 #### Step-by-step
 
