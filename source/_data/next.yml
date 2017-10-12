@@ -33,7 +33,7 @@ rss:
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  #since: 2015
+  since: 2017
 
   # Icon between year and copyright info.
   icon: user
@@ -280,7 +280,7 @@ highlight_theme: normal
 # Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
 # ---------------------------------------------------------------
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
   host:
@@ -293,27 +293,27 @@ font:
   # Global font settings used on <body> element.
   global:
     external: true
-    family: Actor
+    family: Source Sans Pro
     size:
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6).
   # Fallback to `global` font settings.
   headings:
     external: true
-    family:
+    family: 
     size:
 
   # Font settings for posts.
   # Fallback to `global` font settings.
   posts:
     external: true
-    family:
+    family: 
 
   # Font settings for Logo.
   # Fallback to `global` font settings.
   logo:
     external: true
-    family: Ubuntu
+    family: 
     size:
 
   # Font settings for <code> and code blocks.
@@ -403,7 +403,7 @@ valine:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-46589105-7
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
@@ -582,7 +582,7 @@ tabs:
 
 # Use velocity to animate everything.
 motion:
-  enable: true
+  enable: false
   async: false
   transition:
     # Transition variants:
