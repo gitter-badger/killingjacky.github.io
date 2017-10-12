@@ -10,7 +10,8 @@ install:
  # - npm install -g gulp
 
 script:
-  - hexo clean --config source/_data/next.yml && hexo g --config source/_data/next.yml
+  #- hexo clean --config source/_data/next.yml && hexo g --config source/_data/next.yml
+  - hexo g
 
 after_script:
   - cd ./public
@@ -18,7 +19,7 @@ after_script:
   - git config user.name "KillingJacky"
   - git config user.email "jacky.shaoxg@gmail.com"
   - git add .
-  - git commit -m "One more step to X"
+  - git commit -m "One more step to X world"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
 # E: Build LifeCycle
 
